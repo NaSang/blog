@@ -7,7 +7,7 @@
 - 查找
 
 ### 思路
-![image](https://github.com/NaSang/blog/blob/master/OJproblems/images/offer1.png)
+![image](assets/images/offer1.png)
 
 如图所示，从左下或者右上角开始搜索，即可以有明确的搜索方向。
 
