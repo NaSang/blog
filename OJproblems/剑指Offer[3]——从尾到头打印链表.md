@@ -11,15 +11,15 @@
 ### 代码
 ~~~cpp
 class Solution {
-public:
-    vector<int> printListFromTailToHead(ListNode* head) {
-        vector<int> ans;
-        ListNode *p = head;
-        while(p) {
-            ans.insert(ans.begin(),p->val);
-            p = p->next;
-        }
-        return ans;
+ public:
+  vector<int> printListFromTailToHead(ListNode* head) {
+    vector<int> ans;
+    ListNode* p = head;
+    while (p) {
+      ans.insert(ans.begin(), p->val);
+      p = p->next;
     }
+    return ans;
+  }
 };
 ~~~
