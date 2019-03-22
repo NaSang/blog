@@ -6,6 +6,8 @@
 - 查找
 
 ### 思路
+![image](http://github.com/NaSang/blog/OJproblems/images/offer1.png)
+如图所示，从左下或者右上角开始搜索，即可以有明确的搜索方向。
 
 ### 代码
 ~~~cpp
